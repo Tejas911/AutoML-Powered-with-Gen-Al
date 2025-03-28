@@ -1,0 +1,32 @@
+Work in progress
+'''
+            # the setup code is going to be in diff file
+            similarly we are going to get the parameters generated with help of LLM
+            
+            ### Feature engineering :
+            setup(data=data, target='Purchase', 
+            categorical_features=['StoreID'], 
+            polynomial_features=True,
+            feature_interaction=True,
+            bin_numeric_features=['Age'],
+            target_encoding=True,
+            normalize=True, 
+            transformation=True)
+
+            ### Feature Selection:
+            setup(data=data, target='Purchase', 
+            feature_selection=True, 
+            feature_selection_threshold=0.9)  # Example threshold
+
+            ### Feature Imputation: 
+            Strategy :
+            Low Missingness (<5%): Basic strategies like mean, median, or mode imputation often work well.
+            Moderate Missingness (5–30%): More advanced imputation methods or model-based techniques might be better.
+            High Missingness (>30%): Consider whether imputation is appropriate, or if the feature should be dropped.
+
+            REF Links:
+            https://pycaret.gitbook.io/docs/get-started/preprocessing/feature-engineering
+            https://chatgpt.com/share/66f37a85-5c80-8001-a47f-eeaade0bc90e
+            https://chatgpt.com/share/66f37b18-7094-8001-a340-0b90d332c47d
+
+            '''

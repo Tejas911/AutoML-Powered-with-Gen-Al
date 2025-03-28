@@ -1,0 +1,15 @@
+# [theme]
+# primaryColor = "#FF4B4B"
+# backgroundColor = "#D3D3D3"  # Light grey background
+# secondaryBackgroundColor = "#E8E8EF"
+# textColor = "#31333F"
+# font = "monospace"  # Robotic/monospace font
+
+
+
+# [theme]
+# primaryColor = "#000000"  # Black font color
+# backgroundColor = "#FFFFFF"  # White background
+# secondaryBackgroundColor = "#F5F5F5"  # Light grey for contrast
+# textColor = "#000000"  # Black text
+# font = "sans serif"  # Modern, readable font

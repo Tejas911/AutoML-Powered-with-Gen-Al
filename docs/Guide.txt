@@ -1,0 +1,18 @@
+
+API:
+  Postman:
+  ```
+  {
+    "features": [{
+      "features1": int,
+      "features2": int,
+      "features3": int,
+      "features4": int,
+      "features5": "str"
+    }]
+  }
+  ```
+
+GUI:
+  1. Add the .csv file for the feature names. 
+  2. Add the name of the .csv file in the code and add the name of the output feature
